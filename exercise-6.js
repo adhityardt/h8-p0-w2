@@ -15,3 +15,4 @@ while (counter >= 0) {
   counter -= increment;
 }
 //2. Melakukan Looping Menggunakan For
+for()
