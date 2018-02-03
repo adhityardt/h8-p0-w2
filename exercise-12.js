@@ -16,5 +16,6 @@ function konversiMenit(menit) {
   }
   return;
 }
-konversiMenit(100);
-//output 1:40
+konversiMenit(100); // output 1:40
+/* untuk menjalankan function tidak perlu mengetikkan
+console.log, sehingga lebih efisien dan mudah */
