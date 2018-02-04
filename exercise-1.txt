@@ -1,0 +1,45 @@
+===========1.Newton Second Law===========
+STORE "massa" with 5kg
+STORE "percepatan" with 9.8 m/s2
+STORE "gaya" without any value
+CALCULATE "massa" times "acceleration"
+SET "gaya" value with calculation result
+
+DISPLAY "gaya"
+
+
+===========2.Tahun Kabisat===========
+ STORE "tahunIni" with "nomor"
+
+ IF "tahunIni" mod 4 equal to 0 THEN
+     IF "tahunIni" mod 100 not equal to 0 
+      ELSE IF "tahunIni" mod 4 equal to 0, THEN
+        IF "tahunIni" mod 100 equal to 0 THEN
+          IF "tahunIni" mod 400 equal to 0
+  DISPLAY "tahunIni adalah tahun kabisat"
+    ELSE
+   DISPLAY "tahunIni bukan tahun kabisat"
+
+DISPLAY "tahunIni"
+
+
+
+===========3.Laundy Day===========
+STORE "laundry" with 0
+WHILE "laundry" <20
+  ADD "laundry" by 1
+  
+DISPLAY "laundry is processing, please Wait"  
+
+
+===========4.Periksa Kuku===========
+STORE "counter" to 0
+WHILE "counter" < 40
+  ADD "counter" by 1
+
+IF “kukuPendek“ 
+  DISPLAY "dipuji oleh guru"
+ELSE
+  DISPLAY "dihukum oleh guru"
+
+DISPLAY "counter"
