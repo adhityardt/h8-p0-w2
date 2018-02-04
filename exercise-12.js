@@ -5,17 +5,16 @@ function konversiMenit(menit) {
   let displayMenit1 = jam - displayJam;
   let displayMenit2 = displayMenit1 * 60;
   displayMenit2 = Math.floor(displayMenit2);
+  let displayAkhir = ``;
   if(menit > 60 && displayMenit2 < 10){
-    console.log(`${displayJam}:0${displayMenit2}`);
+    displayAkhir = `${displayJam}:0${displayMenit2}`;
   } else if (menit > 60 && displayMenit2 >= 10){
-    console.log(`${displayJam}:${displayMenit2}`);
+    displayAkhir = `${displayJam}:${displayMenit2}`;
   } else if (menit < 60 && displayMenit2 >= 10) {
-    console.log(`00:${displayMenit2}`);
+    displayAkhir = `0:${displayMenit2}`;
   } else {
-    console.log(`00:0${displayMenit2}`);
+    displayAkhir = `0:0${displayMenit2}`;
   }
-  return;
+  return displayAkhir;
 }
-konversiMenit(100); // output 1:40
-/* untuk menjalankan function tidak perlu mengetikkan
-console.log, sehingga lebih efisien dan mudah */
+console.log(konversiMenit(100));
