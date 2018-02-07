@@ -1,6 +1,6 @@
 ===========1.Newton Second Law===========
-STORE "massa" with 5kg
-STORE "percepatan" with 9.8 m/s2
+STORE "massa" with 600 kg
+STORE "percepatan" with 2 m/s2
 STORE "gaya" without any value
 CALCULATE "massa" times "acceleration"
 STORE "gaya" value with calculation result
