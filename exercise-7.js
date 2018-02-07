@@ -25,10 +25,8 @@ let counterLuar = 0;
 let jumlahBaris = 5;
 while (counterLuar < jumlahBaris) {
   let bintang = '';
-  let spasi = '';
   let counterSpasi = jumlahBaris - counterLuar - 1 ;
   while (counterSpasi > 0) {
-    spasi += '';
     counterSpasi --;
   }
   let counterBintang = 0;
@@ -36,6 +34,6 @@ while (counterLuar < jumlahBaris) {
     bintang += '*';
     counterBintang++;
   }
-  console.log(spasi + bintang);
+  console.log(bintang);
   counterLuar++;
 }
