@@ -1,33 +1,35 @@
 let hari = 21;
-let bulan = 1;
+let bulan = 12;
 let tahun = 1945;
+let hasil = ``;
 
 switch(bulan) {
-  case 1  : { console.log (`${hari} Januari ${tahun}`);
+  case 1  : { hasil = `${hari} Januari ${tahun}`;
   break; }
-  case 2  : { console.log (`${hari} Februari ${tahun}`);
+  case 2  : { hasil = `${hari} Februari ${tahun}`;
   break; }
-  case 3  : { console.log (`${hari} Maret ${tahun}`);
+  case 3  : { hasil = `${hari} Maret ${tahun}`;
   break;  }
-  case 4  : { console.log (`${hari} April ${tahun}`);
+  case 4  : { hasil = `${hari} April ${tahun}`;
   break; }
-  case 5  : { console.log (`${hari} Mei ${tahun}`);
+  case 5  : { hasil = `${hari} Mei ${tahun}`;
   break;  }
-  case 6  : { console.log (`${hari} Juni ${tahun}`);
+  case 6  : { hasil = `${hari} Juni ${tahun}`;
   break;  }
-  case 7  : { console.log (`${hari} Juli ${tahun}`);
+  case 7  : { hasil = `${hari} Juli ${tahun}`;
   break;  }
-  case 8  : { console.log (`${hari} Agustus ${tahun}`);
+  case 8  : { hasil = `${hari} Agustus ${tahun}`;
   break;  }
-  case 9  : { console.log (`${hari} September ${tahun}`);
+  case 9  : { hasil = `${hari} September ${tahun}`;
   break;  }
-  case 10 : { console.log (`${hari} Oktober ${tahun}`);
+  case 10 : { hasil = `${hari} Oktober ${tahun}`;
   break;  }
-  case 11 : { console.log (`${hari} November ${tahun}`);
+  case 11 : { hasil = `${hari} November ${tahun}`;
   break;  }
-  case 12 : { console.log (`${hari} Desember ${tahun}`); 
+  case 12 : { hasil = `${hari} Desember ${tahun}`;
   break;  }
   default:  { console.log ("tidak ada data");
   break; }
 
 }
+console.log(hasil);
