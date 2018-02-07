@@ -37,19 +37,19 @@ for(let counter = 1; counter <= limit; counter++){
     }
 }
 console.log('Menampilkan 3 KELIPATAN 3 pada counter');
-for(let counter = 1; counter <= limit; counter += 2){
+for(let counter = 1; counter <= limit; counter ++){
   if(counter%3 === 0){
     console.log('3 KELIPATAN 3');
   } else{console.log(' ');}
 }
 console.log('Menampilkan 6 KELIPATAN 6 pada counter');
-for(let counter = 1; counter <= limit; counter += 5){
+for(let counter = 1; counter <= limit; counter ++){
   if(counter%6 === 0){
     console.log('6 KELIPATAN 6');
   } else{console.log(' ');}
 }
 console.log('Menampilkan 10 KELIPATAN 10 pada counter');
-for(let counter = 1; counter <= limit; counter += 9){
+for(let counter = 1; counter <= limit; counter ++){
   if(counter%10 === 0){
     console.log('10 KELIPATAN 10');
   } else{console.log(' ');}
