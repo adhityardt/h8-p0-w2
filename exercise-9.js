@@ -2,7 +2,7 @@
 function shoutOut(){
   console.log("Halo Function!");
 }
-console.log(shoutOut());
+shoutOut();
 
 //TUGAS 2
 function calculateMultiply(number1, number2) {
@@ -14,4 +14,4 @@ console.log(calculateMultiply(5, 6));
 function processSentence (name, age, adress, hobby){
   console.log(`Nama saya ${name}, umur saya ${age} tahun, alamat saya di ${adress}, dan saya punya hobby yaitu ${hobby}`);
 }
-console.log(processSentence('Agus', 30, 'Jln. Malioboro, Yogyakarta', 'gaming'));
+processSentence('Agus', 30, 'Jln. Malioboro, Yogyakarta', 'gaming');
